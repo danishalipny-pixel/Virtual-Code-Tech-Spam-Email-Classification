@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Raw dataset corpus archives and unpacked files
+data/raw/corpus/
+data/raw/*.tar.bz2
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Streamlit temporary data
+.streamlit/secrets.toml
